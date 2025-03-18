@@ -24,4 +24,5 @@ h1 {
     cursor: pointer;
     margin-left: 40vw;
     margin-top: 40vh;
+    transition-delay: 1s;
 }
