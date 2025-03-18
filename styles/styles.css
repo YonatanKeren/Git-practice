@@ -11,6 +11,7 @@ h1 {
 }
 
 .ball {
+    font-family: sans-serif;
     height: 100px;
     width: 100px;
     border-radius: 50%;
