@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Simple Calculator</title>
+        <link rel="stylesheet" href="css/calc.css">
+	</head>
+	<body>
+		<h1>Simple Calculator</h1>
+
+        <table>
+            <tr>
+                <td onclick="onNumClick(this)">1</td>
+                <td onclick="onNumClick(this)">2</td>
+                <td onclick="onNumClick(this)">3</td>
+                <td onclick="onNumClick(this)">4</td>
+            </tr>
+            <tr>
+                <td onclick="onNumClick(this)">5</td>
+                <td onclick="onNumClick(this)">6</td>
+                <td onclick="onNumClick(this)">7</td>
+                <td onclick="onNumClick(this)">8</td>
+            </tr>
+            <tr>
+                <td onclick="onOperatorClick(this)" colspan="2">+</td>
+                <td onclick="onCalc()" colspan="2">=</td>
+            </tr>
+        </table>
+        <script src="js/calc.js"></script>
+	</body>
+</html>
