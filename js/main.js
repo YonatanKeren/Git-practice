@@ -4,9 +4,9 @@
 function onBallClick(elBall) {
     elBall.style.transition = 'none'
     var increment = getRndIntIncMax(20, 60)
-    console.log(increment)
     var currWidth = elBall.offsetWidth + increment
     var currHeight = elBall.offsetHeight + increment
+    elBall.style.backgroundColor = getRandomColor()
     if (currHeight >= 400 || currWidth >= 400) {
         elBall.style.width = '100px'
         elBall.style.height = '100px'
